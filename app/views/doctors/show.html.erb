@@ -1,0 +1,15 @@
+    <ul>
+    <li><%= @doctor.first_name %></li>
+    <li><%= @doctor.last_name %></li>
+    <li><%= @doctor.title %></li>
+    <li><%= @doctor.available %></li>
+    <li><%= @doctor.speciality %></li>
+    <li><%= @doctor.experience %></li>
+    </ul>
+
+<%= link_to "Delete",
+  doctor_path(@doctor),
+  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}
+%>
+
+<%= link_to "Change your Doctor", edit_doctor_path%>
