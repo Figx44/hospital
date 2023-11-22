@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  doctor: one
+  patient: one
+  date: 2023-11-22 14:38:34
+  cause: MyString
+  urgent: false
+
+two:
+  doctor: two
+  patient: two
+  date: 2023-11-22 14:38:34
+  cause: MyString
+  urgent: false
